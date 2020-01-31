@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>calculadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+
+
+    <header>
+        <h2>Calculadora</h2>
+    </header>
+
+   <div class="calculadora"> 
+    <div id="display">0</div>
+
+    <button onclick="apagar()">AC</button>
+    <button onclick="porcentagem()">%</button>
+    <button onclick="calculo('x')">x</button>
+    <button onclick="calculo('÷')">÷</button>
+    <button onclick="calculo('+')" class="mais">+</button>
+    <button onclick="incluirDigito('7')">7</button>
+    <button onclick="incluirDigito('8')">8</button>
+    <button onclick="incluirDigito('9')">9</button>
+    <button onclick="finalizarCalculo()">=</button>
+    <button onclick="incluirDigito('4')">4</button>
+    <button onclick="incluirDigito('5')">5</button>
+    <button onclick="incluirDigito('6')">6</button>
+    <button onclick="calculo('-')">-</button>
+    <button onclick="incluirDigito('1')">1</button>
+    <button onclick="incluirDigito('2')">2</button>
+    <button onclick="incluirDigito('3')">3</button>
+    <button onclick="incluirDigito('0')"class="zero">0</button>
+    <button onclick="incluirDigito('.')">.</button>
+    
+
+   </div>
+
+   <script src="script.js"></script>  
+</body>
+</html>
